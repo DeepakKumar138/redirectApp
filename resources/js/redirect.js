@@ -1,7 +1,4 @@
 
-// Written by Daniel Cohen Gindi
-// danielgindi@gmail.com
-// http://github.com/danielgindi/app-redirect
 
 (function () {
 
@@ -39,7 +36,6 @@
 
         redirect: function (options) {
 
-            var hasIos = !!(options.iosApp || options.iosAppStore);
             var hasAndroid = !!(options.android);
 
             /**
